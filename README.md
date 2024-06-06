@@ -12,7 +12,7 @@ A Simple Caluculator built with HTML, CSS, JavaScript.
 
 ![Calculator Demo](assets/Calculator.png)
 
-**Try it out :** [Live Demo](https://your-live-demo-link.com)
+**Try it out :** [Live Demo](https://simple-calculator-nk.netlify.app/)
 
 ## Features
 - Basic arithmetic operations: addition, subtraction, multiplication, division
