@@ -8,6 +8,11 @@ A Simple Caluculator built with HTML, CSS, JavaScript.
 - Technologies Used
 
 ## Demo
+**Sample Output**
+
+![Calculator Demo](assets/Calculator.png)
+
+**Try it out :** [Live Demo](https://your-live-demo-link.com)
 
 ## Features
 - Basic arithmetic operations: addition, subtraction, multiplication, division
