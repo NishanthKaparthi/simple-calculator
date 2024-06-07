@@ -21,7 +21,7 @@ class Calculator {
     }
 
     getNumberDisplay(number) {
-        const stringNumber = number.toString();
+        const stringNumber = number.replace(/,/g, '').toString();
         let integerDigits = parseInt(stringNumber.split('.')[0]);
         let decimalDigits = stringNumber.split('.')[1];
         let integerDisplay;
@@ -74,7 +74,7 @@ class Calculator {
             case '*': computation = prev * curr; break;
             default: return;
         }
-        this.currentOperand = computation.toLocaleString('en', {maximumFractionDigits: 2});
+        this.currentOperand = computation.toLocaleString('en', {maximumFractionDigits: 4});
         this.previousOperand = '';
         this.operation = '';
     }
